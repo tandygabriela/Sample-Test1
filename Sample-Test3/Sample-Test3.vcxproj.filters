@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\Main.cpp">
+      <Filter>Mocking\MockingExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\MockTestMain.cpp">
+      <Filter>Mocking\MockingExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\Person.cpp">
+      <Filter>Mocking\MockingExercise</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\Person.hpp">
+      <Filter>Mocking\MockingExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\PersonDao.hpp">
+      <Filter>Mocking\MockingExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\PersonDaoMock.hpp">
+      <Filter>Mocking\MockingExercise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Mocking">
+      <UniqueIdentifier>{d2463fdd-d891-4de8-a716-94025e2f8c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mocking\MockingExercise">
+      <UniqueIdentifier>{0c115dd9-2177-4f81-ac9a-4c49d2fe55bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-mocking-exercise-master\usaf-cpp-mocking-exercise-master\mocking-exercise\makefile">
+      <Filter>Mocking\MockingExercise</Filter>
+    </None>
+  </ItemGroup>
+</Project>

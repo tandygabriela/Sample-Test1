@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DeCoupling">
+      <UniqueIdentifier>{6a209664-84b3-42b8-98ee-e2f83dedb2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeCoupling\DeCouplingExamples">
+      <UniqueIdentifier>{542f49d8-5967-4e02-90e1-2484e3d8135a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeCoupling\DeCouplingExamples\BeforeDeCoupling">
+      <UniqueIdentifier>{020f33d2-cf05-4188-af60-0bbd957f54ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeCoupling\DeCouplingExamples\DependecyInjection">
+      <UniqueIdentifier>{5c6f4eee-119c-4058-b8f0-6ff3b0f7ad55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeCoupling\DeCouplingExamples\Polymorphism">
+      <UniqueIdentifier>{23591f38-aacc-472e-a696-f17b34367a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeCoupling\DeCouplingExamples\VendingMachine">
+      <UniqueIdentifier>{61463c2a-ec7d-4d65-85d4-518cf661e217}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\Main.cpp">
+      <Filter>DeCoupling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\Person.cpp">
+      <Filter>DeCoupling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\PersonImpl.cpp">
+      <Filter>DeCoupling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\A.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\B.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\RealMain.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\A.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\BImpl.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\RealMain.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\A.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\BImpl.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\RealMain.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\Item.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\VendingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\VendingMachine.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\VendingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\VendingMachineTestMain.cpp">
+      <Filter>DeCoupling\DeCouplingExamples\VendingMachine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\makefile">
+      <Filter>DeCoupling</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\makefile">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\MockTest">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\makefile">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\MockTest">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\makefile">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\MockTest">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\makefile">
+      <Filter>DeCoupling\DeCouplingExamples\VendingMachine</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\Person.hpp">
+      <Filter>DeCoupling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\PersonDao.hpp">
+      <Filter>DeCoupling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\PersonImpl.h">
+      <Filter>DeCoupling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\A.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\B.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\A.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\B.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\BImpl.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\A.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\B.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\BImpl.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\Item.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\VendingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\VendingMachine.hpp">
+      <Filter>DeCoupling\DeCouplingExamples\VendingMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\A.o">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\B.o">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\RealMain.o">
+      <Filter>DeCoupling\DeCouplingExamples\BeforeDeCoupling</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\A.o">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\BImpl.o">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\RealMain.o">
+      <Filter>DeCoupling\DeCouplingExamples\DependecyInjection</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\A.o">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\BImpl.o">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </Object>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\RealMain.o">
+      <Filter>DeCoupling\DeCouplingExamples\Polymorphism</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

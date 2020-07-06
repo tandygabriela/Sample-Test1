@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{00ac1984-6553-4921-a129-4b1b4168f80e}</ProjectGuid>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\Main.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\Person.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\PersonImpl.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\A.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\B.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\RealMain.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\A.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\BImpl.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\RealMain.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\A.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\BImpl.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\RealMain.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\Item.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\VendingMachine.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\VendingMachineTestMain.cpp" />
+    <ClCompile Include="ConsoleApplication1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\makefile" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\makefile" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\MockTest" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\makefile" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\MockTest" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\makefile" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\MockTest" />
+    <None Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\makefile" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\Person.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\PersonDao.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-decoupling-exercise-master\usaf-cpp-decoupling-exercise-master\decoupling_exercise\PersonImpl.h" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\A.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\B.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\A.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\B.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\BImpl.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\A.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\B.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\BImpl.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\Item.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\usaf-cpp-demo-unit-master\usaf-cpp-demo-unit-master\VendingMachineDemo\VendingMachine.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\A.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\B.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\before decoupling\RealMain.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\A.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\BImpl.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\dependency_injection\RealMain.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\A.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\BImpl.o" />
+    <Object Include="..\..\..\..\Downloads\usaf-cpp-demo-decoupling-master\usaf-cpp-demo-decoupling-master\polymorphism\RealMain.o" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\googletestmock.v.141.1.0.3\build\native\googletestmock.v.141.targets" Condition="Exists('..\packages\googletestmock.v.141.1.0.3\build\native\googletestmock.v.141.targets')" />
+    <Import Project="..\packages\gmock.1.10.0\build\native\gmock.targets" Condition="Exists('..\packages\gmock.1.10.0\build\native\gmock.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\googletestmock.v.141.1.0.3\build\native\googletestmock.v.141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletestmock.v.141.1.0.3\build\native\googletestmock.v.141.targets'))" />
+    <Error Condition="!Exists('..\packages\gmock.1.10.0\build\native\gmock.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\gmock.1.10.0\build\native\gmock.targets'))" />
+  </Target>
+</Project>
